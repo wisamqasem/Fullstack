@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Face detection</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script defer src="face-api.min.js"></script>
+
+  <script   defer src="script.js"></script>
+ 
+</head>
+<body>
+
+<header style="text-align: center;  font-family: Lucida Console, Courier, monospace;">
+ 
+  <img src="icon1.png">
+</header>
+
+<main class="main_full">
+	<div class="container">
+		<div class="panel">
+			<div class="button_outer" id='b1'>
+				<div class="btn_upload">
+					<input type="file" id="upload_file" name="">
+					Upload Image for face detection
+        </div>
+        
+        
+        <div class="processing_bar"></div>
+        
+				<div class="success_box"></div>
+      </div>
+      
+
+
+
+
+      <button class="button button1" id='b2' style='display: none;'> face detect</button>
+     
+  
+
+		</div>
+    <div class="error_msg"></div>
+    
+		<div class="uploaded_file_view" id="uploaded_view">
+
+    
+			<span class="file_remove">X</span>
+		</div>
+	</div>
+</main>
+<!-- partial -->
+<h1 style="text-align: center;  font-family: Lucida Console, Courier, monospace;">Made by Wisam Qasem</h1>
+
+</body>
+</html>
